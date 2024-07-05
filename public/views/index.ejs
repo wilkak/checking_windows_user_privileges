@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка привилегий пользователя</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/img/logo.png" alt="Логотип">
+            <h1>Проверка привилегий пользователя</h1>
+        </header>
+        <p>Введите имя пользователя, чтобы проверить его привилегии в системе.</p>
+        <form action="/check" method="post">
+            <input type="text" name="username" placeholder="Введите имя пользователя" required>
+            <button type="submit">Проверить</button>
+        </form>
+    </div>
+</body>
+</html>
